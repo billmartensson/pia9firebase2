@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2977E622558490D7999B01 /* Pods_pia9firebase2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4ED34F26E7A15C63BC9D2F6 /* Pods_pia9firebase2.framework */; };
 		AB1B8946251889AB004322A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B8945251889AB004322A2 /* AppDelegate.swift */; };
 		AB1B8948251889AB004322A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B8947251889AB004322A2 /* SceneDelegate.swift */; };
 		AB1B894A251889AB004322A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B8949251889AB004322A2 /* ViewController.swift */; };
 		AB1B894D251889AB004322A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1B894B251889AB004322A2 /* Main.storyboard */; };
 		AB1B894F251889AC004322A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1B894E251889AC004322A2 /* Assets.xcassets */; };
 		AB1B8952251889AC004322A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1B8950251889AC004322A2 /* LaunchScreen.storyboard */; };
+		AB1B895B25188AFD004322A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB1B895A25188AFD004322A2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79F7ED9EFF499973E88D67BD /* Pods-pia9firebase2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pia9firebase2.debug.xcconfig"; path = "Target Support Files/Pods-pia9firebase2/Pods-pia9firebase2.debug.xcconfig"; sourceTree = "<group>"; };
 		AB1B8942251889AB004322A2 /* pia9firebase2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia9firebase2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1B8945251889AB004322A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1B8947251889AB004322A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		AB1B894E251889AC004322A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1B8951251889AC004322A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1B8953251889AC004322A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1B895A25188AFD004322A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4ED34F26E7A15C63BC9D2F6 /* Pods_pia9firebase2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pia9firebase2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81F0340B4EF8A163E87DFF8 /* Pods-pia9firebase2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pia9firebase2.release.xcconfig"; path = "Target Support Files/Pods-pia9firebase2/Pods-pia9firebase2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2977E622558490D7999B01 /* Pods_pia9firebase2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA4559406E3CE2423EDEA08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED34F26E7A15C63BC9D2F6 /* Pods_pia9firebase2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4F5FFCEFC44183BE5085EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79F7ED9EFF499973E88D67BD /* Pods-pia9firebase2.debug.xcconfig */,
+				F81F0340B4EF8A163E87DFF8 /* Pods-pia9firebase2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB1B8939251889AB004322A2 = {
 			isa = PBXGroup;
 			children = (
 				AB1B8944251889AB004322A2 /* pia9firebase2 */,
 				AB1B8943251889AB004322A2 /* Products */,
+				4B4F5FFCEFC44183BE5085EC /* Pods */,
+				2BA4559406E3CE2423EDEA08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +83,7 @@
 		AB1B8944251889AB004322A2 /* pia9firebase2 */ = {
 			isa = PBXGroup;
 			children = (
+				AB1B895A25188AFD004322A2 /* GoogleService-Info.plist */,
 				AB1B8945251889AB004322A2 /* AppDelegate.swift */,
 				AB1B8947251889AB004322A2 /* SceneDelegate.swift */,
 				AB1B8949251889AB004322A2 /* ViewController.swift */,
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB1B8956251889AC004322A2 /* Build configuration list for PBXNativeTarget "pia9firebase2" */;
 			buildPhases = (
+				16022A9F61BF4227A036DBA4 /* [CP] Check Pods Manifest.lock */,
 				AB1B893E251889AB004322A2 /* Sources */,
 				AB1B893F251889AB004322A2 /* Frameworks */,
 				AB1B8940251889AB004322A2 /* Resources */,
+				1099A0A058F423AC339CEE4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1B8952251889AC004322A2 /* LaunchScreen.storyboard in Resources */,
+				AB1B895B25188AFD004322A2 /* GoogleService-Info.plist in Resources */,
 				AB1B894F251889AC004322A2 /* Assets.xcassets in Resources */,
 				AB1B894D251889AB004322A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1099A0A058F423AC339CEE4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pia9firebase2/Pods-pia9firebase2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pia9firebase2/Pods-pia9firebase2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pia9firebase2/Pods-pia9firebase2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16022A9F61BF4227A036DBA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pia9firebase2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB1B893E251889AB004322A2 /* Sources */ = {
@@ -283,6 +356,7 @@
 		};
 		AB1B8957251889AC004322A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F7ED9EFF499973E88D67BD /* Pods-pia9firebase2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +375,7 @@
 		};
 		AB1B8958251889AC004322A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81F0340B4EF8A163E87DFF8 /* Pods-pia9firebase2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
